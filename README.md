@@ -6,14 +6,12 @@
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/tableau/tabpy/Test%20Run%20on%20Push)](https://github.com/tableau/TabPy/actions?query=workflow%3A%22Test+Run+on+Push%22)
 [![Coverage Status](https://coveralls.io/repos/github/tableau/TabPy/badge.svg?branch=master)](https://coveralls.io/github/tableau/TabPy?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/tableau/TabPy/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/tableau/TabPy/?branch=master)
+[![Requirements Status](https://requires.io/github/tableau/TabPy/requirements.svg?branch=master)](https://requires.io/github/tableau/TabPy/requirements/?branch=master)
 
-[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
-[![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
-[![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/tabpy?label=PyPI%20Python%20versions)
-![PyPI - Wheel](https://img.shields.io/pypi/wheel/tabpy)
 [![PyPI version](https://badge.fury.io/py/tabpy.svg)](https://pypi.python.org/pypi/tabpy/)
-![Release](https://img.shields.io/github/release/tableau/TabPy.svg)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 TabPy (the Tableau Python Server) is an Analytics Extension implementation which
 expands Tableau's capabilities by allowing users to execute Python scripts and
@@ -25,6 +23,7 @@ Consider reading TabPy documentation in the following order:
 * [TabPy Installation Instructions](docs/server-install.md)
 * [TabPy Server Configuration Instructions](docs/server-config.md)
 * [Running TabPy in Virtual Environment](docs/tabpy-virtualenv.md)
+* [Running TabPy on Heroku](docs/deploy-to-heroku.md)
 * [Authoring Python calculations in Tableau](docs/TableauConfiguration.md).
 * [TabPy Tools](docs/tabpy-tools.md)
 
@@ -53,5 +52,3 @@ Other useful resources:
 * [TabPy Tutorial on TabWiki](https://community.tableau.com/docs/DOC-10856)
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/tableau/TabPy.svg)
-![GitHub forks](https://img.shields.io/github/forks/tableau/TabPy.svg?label=Forks&style=social)
-![GitHub stars](https://img.shields.io/github/stars/tableau/TabPy.svg?style=social)

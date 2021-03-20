@@ -10,3 +10,4 @@ CMD ["sh", "-c", "tabpy"]
 
 # deploy models
 RUN tabpy-deploy-models
+

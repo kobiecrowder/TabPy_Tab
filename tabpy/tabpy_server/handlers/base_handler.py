@@ -4,7 +4,7 @@ import concurrent
 import json
 import logging
 import tornado.web
-from tabpy.tabpy_server.app.SettingsParameters import SettingsParameters
+from tabpy.tabpy_server.app.app_parameters import SettingsParameters
 from tabpy.tabpy_server.handlers.util import hash_password
 from tabpy.tabpy_server.handlers.util import AuthErrorStates
 import uuid
@@ -145,7 +145,6 @@ class BaseHandler(tornado.web.RequestHandler):
                 code, log_message, info
             ),
         )
-        self.finish()
 
     def options(self):
         # add CORS headers if TabPy has a cors_origin specified
